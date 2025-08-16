@@ -1,0 +1,44 @@
+name: "lastfm weekly chart"
+author: "darynwhite"
+description: "Adds a Last.fm Weekly Chart to any repo with a README.md"
+inputs:
+  LASTFM_API_KEY:
+    description: "Last.fm API Key. Store it as a GitHub Secret."
+    required: true
+    default: LASTFM_API_KEY
+
+  LASTFM_USER:
+    description: "Last.fm user to get their weekly chart."
+    required: true
+    default: LASTFM_USER
+
+  IMAGE_COUNT:
+    description: "How many album covers will appear."
+    required: false
+    default: "10"
+
+  IMAGE_SIZE:
+    description: "Size of the album cover images. Options: small, medium, large, extralarge, mega."
+    required: false
+    default: "medium"
+
+  INCLUDE_LINK:
+    description: "Include a link to the album on Last.fm."
+    required: false
+    default: "false"
+
+runs:
+  using: "composite"
+  steps:
+    - env:
+        LASTFM_API_KEY: ${{ inputs.LASTFM_API_KEY }}
+        LASTFM_USER: ${{ inputs.LASTFM_USER }}
+        IMAGE_COUNT: ${{ inputs.IMAGE_COUNT }}
+        IMAGE_SIZE: ${{ inputs.IMAGE_SIZE }}
+        INCLUDE_LINK: ${{ inputs.INCLUDE_LINK }}
+      run: python ${{ github.action_path }}/lastfm.py
+      shell: bash
+
+branding:
+  icon: "music"
+  color: "red"
