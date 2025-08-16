@@ -1,6 +1,6 @@
-name: "lastfm weekly chart"
+name: "lastfm chart"
 author: "darynwhite"
-description: "Adds a Last.fm Weekly Chart to any repo with a README.md"
+description: "Adds a Last.fm Chart to any repo with a README.md"
 inputs:
   LASTFM_API_KEY:
     description: "Last.fm API Key. Store it as a GitHub Secret."
@@ -8,22 +8,22 @@ inputs:
     default: LASTFM_API_KEY
 
   LASTFM_USER:
-    description: "Last.fm user to get their weekly chart."
+    description: "Last.fm user to get their top chart."
     required: true
     default: LASTFM_USER
 
   IMAGE_COUNT:
-    description: "How many album covers will appear."
+    description: "Maximum number of images that will appear."
     required: false
     default: "10"
 
   IMAGE_SIZE:
-    description: "Size of the album cover images. Options: small, medium, large, extralarge, mega."
+    description: "Size of the cover images. Options: small, medium, large, extralarge, mega."
     required: false
     default: "medium"
 
   INCLUDE_LINK:
-    description: "Include a link to the album on Last.fm."
+    description: "Include a link to the album/track/artist on Last.fm."
     required: false
     default: "false"
 
