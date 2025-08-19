@@ -13,7 +13,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: repo checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: python setup
         uses: actions/setup-python@v2
@@ -28,7 +28,9 @@ jobs:
         env:
           LASTFM_API_KEY: ${{ secrets.LASTFM_API_KEY }}
           LASTFM_USER: ${{ secrets.LASTFM_USER }}
+          INCLUDE_LINKS: true
           IMAGE_COUNT: 50
+          IMAGE_SIZE: small
         run: python lastfm.py
 
       - name: commit changes
