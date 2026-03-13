@@ -7,7 +7,7 @@ This is a fork and rebuild of [melipass/lastfm-to-markdown](https://github.com/m
 
 ## 🎵 Example output, automatically updated every day
 <!-- lastfm -->
-<p align="center"><img src="https://lastfm.freetls.fastly.net/i/u/34s/85ee26d039d6495895f5e952d4df35d9.jpg" title="Summer's Gone - ODESZA"> <img src="https://lastfm.freetls.fastly.net/i/u/34s/e5456f90c6ec3a5508a8729130a1c3b5.jpg" title="Bluey the Album (Music from the Original TV Series) - Bluey"> </p>
+<p align="center"></p>
 
           
 ## 👩🏽‍💻 What you'll need
