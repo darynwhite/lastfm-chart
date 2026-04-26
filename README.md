@@ -7,7 +7,7 @@ This is a fork and rebuild of [melipass/lastfm-to-markdown](https://github.com/m
 
 ## 🎵 Example output, automatically updated every day
 <!-- lastfm -->
-<p align="center"><img src="https://lastfm.freetls.fastly.net/i/u/34s/b16a343e68aefeaaf94b6324a07cb6e1.jpg" title="Slumberkins: Season 1, Vol. 1 (Apple Original Series Soundtrack) - Ingrid Michaelson"> <img src="https://lastfm.freetls.fastly.net/i/u/34s/b6c46db61212e9e9e57f3633cf588eae.png" title="Final Straw - Snow Patrol"> <img src="https://lastfm.freetls.fastly.net/i/u/34s/c2402f6c2f3b47ab134051c80ed6f480.jpg" title="Dark All Day - Gunship"> <img src="https://lastfm.freetls.fastly.net/i/u/34s/4a8ecdd4507fdf5ad3fc82e0a228a1d0.png" title="A Hundred Million Suns - Snow Patrol"> </p>
+<p align="center"><img src="https://lastfm.freetls.fastly.net/i/u/34s/b16a343e68aefeaaf94b6324a07cb6e1.jpg" title="Slumberkins: Season 1, Vol. 1 (Apple Original Series Soundtrack) - Ingrid Michaelson"> <img src="https://lastfm.freetls.fastly.net/i/u/34s/4d6a333808f4a1e7cd69d30ed457248e.jpg" title="A Day Without Rain - Enya"> <img src="https://lastfm.freetls.fastly.net/i/u/34s/b6c46db61212e9e9e57f3633cf588eae.png" title="Final Straw - Snow Patrol"> </p>
 
           
 ## 👩🏽‍💻 What you'll need
